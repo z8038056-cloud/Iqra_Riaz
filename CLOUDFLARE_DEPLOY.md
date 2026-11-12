@@ -5,9 +5,9 @@ This guide walks you through deploying the Iqra Riaz portfolio to Cloudflare Pag
 ## ✅ Step 1: Push your code (Already done!)
 
 Your code has been successfully pushed to GitHub:
-- **Repository URL:** https://github.com/zohaibsumbal786/Iqra_Riaz
+- **Repository URL:** https://github.com/z8038056-cloud/Iqra_Riaz
 - **Branch:** master
-- **Latest Commit:** 425152e8952bfa10267584d99c4f03dc8b2bceb0
+- **GitHub Account:** z8038056-cloud
 
 ---
 
@@ -49,9 +49,9 @@ On the build configuration page, enter the following settings:
 ### Environment Variables
 Click **Add variable** and add:
 - **Variable name:** `NODE_VERSION`
-- **Value:** `18`
+- **Value:** `20`
 
-This ensures Cloudflare uses Node.js 18 for the build.
+This ensures Cloudflare uses Node.js 20 for the build (required for the latest dependencies).
 
 ---
 
